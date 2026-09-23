@@ -35,7 +35,6 @@ This project takes transactional sales data, processes and transforms it into a 
 ### Deployment
 - Vercel
 ## 🔄 Project Workflow
-```text
 Raw Transaction Data
         ↓
 Data Cleaning
@@ -53,6 +52,8 @@ Association Rules
 Support / Confidence / Lift
         ↓
 Results & Visualizations
+
+
 PROJECT STRUCTURE:
 market-basket-analysis/
 │
