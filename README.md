@@ -1,16 +1,76 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛒 Market Basket Analysis
+A web-based **Market Basket Analysis** project that discovers relationships between products purchased together using **Data Mining and Association Rule Mining** techniques.
+The project uses **Apriori Algorithm** to identify frequent itemsets and generate association rules based on Support, Confidence, and Lift.
+## 🚀 Live Demo
+https://market-basket-analysis-jaswitha2.vercel.app/
+## 📌 About the Project
+Market Basket Analysis is a data mining technique used to understand customer purchasing behavior by finding products that are frequently purchased together.
+This project takes transactional sales data, processes and transforms it into a suitable format, and applies the **Apriori algorithm** to discover meaningful product associations.
+## ✨ Features
+- 📂 Transactional dataset processing
+- 🧹 Data cleaning and preprocessing
+- 🔄 Data transformation
+- 📊 Transaction analysis
+- 🔎 Frequent itemset generation
+- 🤝 Association rule mining
+- 📈 Support calculation
+- 🎯 Confidence calculation
+- 💡 Lift calculation
+- 📋 Interactive results display
+- 📊 Data visualization
+- 🌐 User-friendly web interface
+## 🧠 Technologies Used
+### Frontend
+- React
+- Vite
+- HTML
+- CSS
+- JavaScript
+### Data Mining
+- Python
+- Pandas
+- NumPy
+- Mlxtend
+- Apriori Algorithm
+### Deployment
+- Vercel
+## 🔄 Project Workflow
+```text
+Raw Transaction Data
+        ↓
+Data Cleaning
+        ↓
+Data Transformation
+        ↓
+Transaction Encoding
+        ↓
+Apriori Algorithm
+        ↓
+Frequent Itemsets
+        ↓
+Association Rules
+        ↓
+Support / Confidence / Lift
+        ↓
+Results & Visualizations
+PROJECT STRUCTURE:
+market-basket-analysis/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── data/
+│   └── dataset.csv
+│
+├── notebooks/
+│   └── market_basket_analysis.ipynb
+│
+├── package.json
+├── vite.config.js
+└── README.md
